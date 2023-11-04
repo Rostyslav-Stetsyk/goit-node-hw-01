@@ -3,7 +3,7 @@ import {
   getContactById,
   listContacts,
   removeContact,
-} from "./db/contacts.js";
+} from "./contacts.js";
 
 import { Command } from "commander";
 const program = new Command();
